@@ -1,5 +1,9 @@
 # 📸 Travel Route: Hibrit Seyahat & Rota Asistanı
 
+> [!IMPORTANT]
+> **🚧 İNŞAAT ALANI: Bu Proje Aktif Geliştirme Aşamasındadır**
+>
+> Şu anda temel arayüz bitmiş olup, kamera ve harita özellikleri kodlanmaktadır. 
 
 ## 📱 Proje Vizyonu
 
