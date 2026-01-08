@@ -30,7 +30,7 @@ Kullanıcının seçimine göre arayüzü tamamen değiştiren **Dinamik State Y
 
 | 📸 Mod A: Fotoğraf & Keşif | 🗺️ Mod B: Rota & Planlama |
 | :---: | :---: |
-| <img src="3.jpg" width="280" /> | <img src="4.png" width="280" /> |
+| <img width="1440" height="3120" alt="3" src="https://github.com/user-attachments/assets/3830034c-f033-4583-b578-9aaf18a6896f" width="280"/> | <img width="1440" height="3120" alt="4" src="https://github.com/user-attachments/assets/93982524-dc5f-4e22-8a11-3fe0a8d7966f" width="280"/> |
 | **"Fotoğraf Çek"** seçildiğinde: <br>Şehir listesi ve keşif kartları açılır. | **"Rota Oluştur"** seçildiğinde: <br>Kullanıcının kalacağı gün sayısını belirlediği sayaç modülü aktifleşir. |
 
 *(Not: 3. ve 4. resimler için dosyaları repoya yüklemeniz yeterlidir, isimler kodla eşleştiği sürece görünürler.)*
