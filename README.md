@@ -1,4 +1,4 @@
-# 📸 Travel Lens: Hibrit Seyahat & Rota Asistanı
+# 📸 Travel Route: Hibrit Seyahat & Rota Asistanı
 
 > **🚧 DURUM: Aktif Geliştirme Aşamasında (WIP)**
 > Bu proje; seyahatseverlere hem **Fotoğraf Rehberliği** hem de **Rota Planlama** imkanı sunan hibrit bir mobil uygulamadır. Şu anda **v0.2 (UI & Core Logic)** aşamasındadır.
