@@ -1,16 +1,36 @@
-# barcelona_gezi
+# 🌍 Travel Route Planner (Gezgin Asistanı)
 
-A new Flutter project.
+> **🚧 DURUM: Geliştirme Aşamasında (WIP)**
+> Bu proje aktif geliştirme sürecindedir. Temel UI ve navigasyon iskeleti oluşturulmuş olup, harita entegrasyonu ve veri tabanı işlemleri geliştirilmektedir.
 
-## Getting Started
+## 🎯 Proje Hedefi
+Kullanıcıların seyahat edecekleri ülke ve şehri seçip, interaktif haritalar üzerinde rotalarını planlayabilecekleri, notlar alabilecekleri kapsamlı bir seyahat asistanı uygulaması.
 
-This project is a starting point for a Flutter application.
+## 📱 Mevcut Özellikler (v0.1)
 
-A few resources to get you started if this is your first Flutter project:
+* **🎬 Sinematik Giriş:** `video_player` paketi kullanılarak oluşturulmuş, kullanıcıyı içine çeken video arka planlı karşılama ekranı.
+* **📍 Akıllı Konum Seçimi:** Seçilen ülkeye göre dinamik olarak güncellenen şehir listeleri (Dropdown Logic).
+* **🎨 Modern UI:** `Inter` font ailesi ve özel renk paleti (Teal & GreyBlue) ile tasarlanmış temiz arayüz.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Kullanılan Teknolojiler
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* **Flutter & Dart**
+* **State Management:** `StatefulWidget` (Şu anlık)
+* **Asset Management:** Video ve İkon entegrasyonları
+
+## 📝 Yol Haritası (Roadmap)
+
+- [x] Proje kurulumu ve Tema ayarları
+- [x] Video arka planlı Splash Screen
+- [x] Ülke/Şehir seçim mantığı (Logic)
+- [ ] **Google Maps / Mapbox Entegrasyonu** (Sıradaki Hedef)
+- [ ] Rota oluşturma ve kaydetme
+- [ ] Yerel veritabanı (Hive/SQLite) entegrasyonu
+
+## 📂 Klasör Yapısı (Şu Anki)
+
+* `welcome_screen.dart`: Video controller ve giriş animasyonları.
+* `location_selection_screen.dart`: Kullanıcı seçim algoritması ve validasyonlar.
+
+---
+*Geliştirilmeye devam ediyor... Takipte kalın! 🚀*
