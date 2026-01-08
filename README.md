@@ -8,8 +8,8 @@
 ## 📱 Proje Vizyonu
 
 Standart gezi uygulamalarının aksine, kullanıcıya tek bir ekranda iki farklı mod sunar:
-1.  **Fotoğraf Modu:** Şehrin en ikonik noktalarını ve en iyi açılarını keşfetmek için.
-2.  **Planlama Modu:** Gideceği gün sayısına göre otomatik veya manuel rota oluşturmak için.
+1.  **Fotoğraf Modu:** Şehrin en ikonik noktalarını ve en iyi açılarını keşfetmek.
+2.  **Planlama Modu:** Gideceği gün sayısına göre otomatik veya manuel rota oluşturmak.
 
 ---
 
