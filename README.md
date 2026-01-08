@@ -22,9 +22,7 @@ Kullanıcıyı içine çeken video arka planlı açılış ve modern form yapıs
 
 | 🎬 Sinematik Splash Screen | 🔐 Kullanıcı Girişi (Auth) |
 | :---: | :---: |
-| <img width="1440" height="3120" alt="1" src="https://github.com/user-attachments/assets/6b110180-fcf9-417a-804e-24b2137552a8" width="280"/>
- | <img width="1440" height="3120" alt="2" src="https://github.com/user-attachments/assets/79a3572a-8735-41a5-8c2f-2cff8f39e694" width="280"/>
- |
+| <img src="https://github.com/user-attachments/assets/6b110180-fcf9-417a-804e-24b2137552a8" width="280"/> | <img src="https://github.com/user-attachments/assets/79a3572a-8735-41a5-8c2f-2cff8f39e694" width="280"/> |
 | *Arka planda döngüsel şehir videosu ve marka kimliği.* | *Sade, odaklanmış ve kullanıcı dostu giriş formu.* |
 
 ### 2. Akıllı Dashboard (State Management)
@@ -33,7 +31,9 @@ Kullanıcının seçimine göre arayüzü tamamen değiştiren **Dinamik State Y
 | 📸 Mod A: Fotoğraf & Keşif | 🗺️ Mod B: Rota & Planlama |
 | :---: | :---: |
 | <img src="3.jpg" width="280" /> | <img src="4.png" width="280" /> |
-| **"Fotoğraf Çek"** seçildiğinde: <br>Şehir listesi (İstanbul, Barcelona...) ve keşif kartları açılır. | **"Rota Oluştur"** seçildiğinde: <br>Kullanıcının kalacağı gün sayısını belirlediği sayaç modülü aktifleşir. |
+| **"Fotoğraf Çek"** seçildiğinde: <br>Şehir listesi ve keşif kartları açılır. | **"Rota Oluştur"** seçildiğinde: <br>Kullanıcının kalacağı gün sayısını belirlediği sayaç modülü aktifleşir. |
+
+*(Not: 3. ve 4. resimler için dosyaları repoya yüklemeniz yeterlidir, isimler kodla eşleştiği sürece görünürler.)*
 
 ---
 
