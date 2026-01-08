@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > **🚧 GELİŞTİRME: Bu Proje Aktif Geliştirme Aşamasındadır**
 >
-> Şu anda **v0.2 (UI & Core Logic)** sürümündedir. Temel arayüz bitmiş olup, kamera ve harita özellikleri kodlanmaktadır. Bazı butonlar henüz çalışmayabilir.
+> Şu anda temel arayüz bitmiş olup, kamera ve harita özellikleri kodlanmaktadır. 
 
 ## 📱 Proje Vizyonu
 
