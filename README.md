@@ -1,9 +1,16 @@
 # 📸 Travel Route: Hibrit Seyahat & Rota Asistanı
 
-> [!IMPORTANT]
-> **🚧 Bu Proje Aktif Geliştirme Aşamasındadır**
->
-> Şu anda temel arayüz bitmiş olup, kamera ve harita özellikleri kodlanmaktadır. 
+<table>
+  <tr>
+    <td align="center" width="100">
+      <img src="https://media.giphy.com/media/du3J3cXyzhj75RFbv9/giphy.gif" width="50">
+    </td>
+    <td>
+      <h3>🚧 Work In Progress (Yapım Aşamasında)</h3>
+      <p>Bu proje henüz tamamlanmamıştır. <b>Fotoğraf Rehberliği</b> ve <b>Rota Planlama</b> özellikleri üzerinde aktif olarak çalışılmaktadır.</p>
+    </td>
+  </tr>
+</table>
 
 ## 📱 Proje Vizyonu
 
