@@ -1,85 +1,67 @@
-# 📸 Travel Lens & Route Builder (Gezgin Asistanı)
+# 📸 Travel Lens: Hibrit Seyahat & Rota Asistanı
 
-> **🚧 DURUM: Geliştirme Aşamasında (WIP)**
-> Bu proje, seyahatseverler için **Fotoğraf Rehberliği (Ghost Camera)** ve **İnteraktif Rota Planlama (Drag & Drop)** özelliklerini tek bir hibrit arayüzde birleştiren kapsamlı bir mobil uygulamadır.
-
----
-
-## 📱 Proje Özeti ve Vizyon
-
-Bu uygulama, sadece "nereye gidilir" sorusunu değil, **"nasıl gezilir"** ve **"nasıl fotoğraf çekilir"** sorularını da çözer. Kullanıcılar, izometrik haritalar üzerinde keşif yapabilir, mükemmel fotoğraf açılarını "Ghost Camera" moduyla yakalayabilir ve sürükle-bırak yöntemiyle kendi rotalarını tasarlayabilirler.
-
-## 🎨 Temel Özellikler ve Akışlar
-
-Uygulama 4 ana modül üzerine kurgulanmıştır:
-
-### 1. 🎬 Sinematik Giriş & Profil (Onboarding)
-Kullanıcıyı içine çeken görsel bir karşılama deneyimi.
-* **Splash Screen:** Arka planda yüksek çözünürlüklü, döngüsel (loop) şehir videosu.
-* **Veri Toplama:** Bulanık (Blur) arka plan üzerinde modern form yapısı ile kullanıcı profilleme (İsim, Yaş, Şehir).
-
-### 2. 🎛️ Hibrit Kontrol Merkezi (Dashboard)
-Uygulamanın beyni olan bu ekran, **State Management** becerilerini sergiler.
-* **Segmented Control:** [Fotoğraf Çek] ve [Rota Oluştur] modları arasında Neumorphic tasarımlı geçiş butonu.
-* **Dinamik İçerik:**
-    * *Fotoğraf Modu:* Şehir listesi ve kartları.
-    * *Rota Modu:* İnteraktif gün sayacı (+/-).
+> **🚧 DURUM: Aktif Geliştirme Aşamasında (WIP)**
+> Bu proje; seyahatseverlere hem **Fotoğraf Rehberliği** hem de **Rota Planlama** imkanı sunan hibrit bir mobil uygulamadır. Şu anda **v0.2 (UI & Core Logic)** aşamasındadır.
 
 ---
 
-### 3. 📸 Akış A: Fotoğraf Rehberi ve Ghost Camera
-Fotoğrafçılık deneyimini oyunlaştıran modül.
-* **🗺️ İzometrik 3D Harita:** Seçilen şehrin kare zemin üzerinde 3D modellenmiş hali. Binalar tıklandığında zıplama (bounce) efekti ve parlayan kenarlar (highlight) ile tepki verir.
-* **💡 Akıllı Tooltip:** Mekan detayları ve "İncele" seçeneği.
-* **📷 Ghost Camera (Silüet Modu):** Kullanıcı bir mekanı çekerken, ekranda referans fotoğrafın **kırmızı çizgilerle çizilmiş silüeti** belirir. Bu sayede kullanıcı, profesyonel açıyı birebir yakalar.
-* **❤️ Favori Sistemi:** Beğenilen açıları kaydetme.
+## 📱 Proje Vizyonu
+
+Standart gezi uygulamalarının aksine, kullanıcıya tek bir ekranda iki farklı mod sunar:
+1.  **Fotoğraf Modu:** Şehrin en ikonik noktalarını ve en iyi açılarını keşfetmek için.
+2.  **Planlama Modu:** Gideceği gün sayısına göre otomatik veya manuel rota oluşturmak için.
 
 ---
 
-### 4. 🗺️ Akış B: Rota Oluşturucu (Builder & Journal)
-Planlama ve takip süreci.
-* **🏗️ Drag & Drop Builder:** Kareli (Grid) zemin üzerinde sürükle-bırak mantığı. Kullanıcılar "Tarihi Eser", "Cafe" gibi kategorileri grid üzerine sürükleyip bırakarak rota çizer.
-* **✨ Gamification (Oyunlaştırma):** Rota üzerindeki bir mekana varılıp "Buradayım" dendiğinde konfeti efektleri ve motivasyon mesajları.
-* **📒 Dijital Anı Defteri (Journal):** Rota tamamlandıktan sonra her durak için kişisel notlar ve değerlendirmeler eklenen kronolojik günlük.
+## 🎨 Tamamlanan Arayüzler ve Akışlar
+
+Şu ana kadar uygulamanın **Onboarding (Karşılama)**, **Kimlik Doğrulama** ve **Ana Kontrol Merkezi (Dashboard Logic)** modülleri tamamlanmıştır.
+
+### 1. Karşılama ve Giriş Deneyimi
+Kullanıcıyı içine çeken video arka planlı açılış ve modern form yapısı.
+
+| 🎬 Sinematik Splash Screen | 🔐 Kullanıcı Girişi (Auth) |
+| :---: | :---: |
+| <img width="1440" height="3120" alt="1" src="https://github.com/user-attachments/assets/6b110180-fcf9-417a-804e-24b2137552a8" width="280"/>
+ | <img width="1440" height="3120" alt="2" src="https://github.com/user-attachments/assets/79a3572a-8735-41a5-8c2f-2cff8f39e694" width="280"/>
+ |
+| *Arka planda döngüsel şehir videosu ve marka kimliği.* | *Sade, odaklanmış ve kullanıcı dostu giriş formu.* |
+
+### 2. Akıllı Dashboard (State Management)
+Kullanıcının seçimine göre arayüzü tamamen değiştiren **Dinamik State Yönetimi**.
+
+| 📸 Mod A: Fotoğraf & Keşif | 🗺️ Mod B: Rota & Planlama |
+| :---: | :---: |
+| <img src="3.jpg" width="280" /> | <img src="4.png" width="280" /> |
+| **"Fotoğraf Çek"** seçildiğinde: <br>Şehir listesi (İstanbul, Barcelona...) ve keşif kartları açılır. | **"Rota Oluştur"** seçildiğinde: <br>Kullanıcının kalacağı gün sayısını belirlediği sayaç modülü aktifleşir. |
 
 ---
 
-## 🛠️ Teknik Mimari ve Kullanılan Teknolojiler
+## 🛠️ Teknik Detaylar (Şu Anki Altyapı)
 
-Proje, **Clean Architecture** prensiplerine uygun olarak geliştirilmektedir.
+* **Dinamik State Yönetimi:** Dashboard ekranındaki seçim (`Fotoğraf` vs `Rota`), alt kısımdaki widget ağacını (Widget Tree) anlık olarak yeniden çizer (`rebuild`).
+* **Varlık Yönetimi (Assets):** Yüksek çözünürlüklü görseller ve video entegrasyonu optimize edilmiştir.
+* **UI/UX Prensipleri:**
+    * **Micro-Interactions:** Seçim yapıldığında beliren yeşil çerçeve ve onay ikonu (`check_circle`).
+    * **Typography:** Okunabilirliği yüksek modern font ailesi.
+    * **Whitespace:** Ferah ve göz yormayan yerleşim.
 
-| Kategori | Teknoloji / Paket | Kullanım Amacı |
-| :--- | :--- | :--- |
-| **Framework** | Flutter & Dart | Cross-platform geliştirme. |
-| **State Mng.** | Provider / Riverpod | Hibrit dashboard ve seçim yönetimi. |
-| **Video** | `video_player` | Splash screen arka planı. |
-| **UI Kit** | `neumorphic_design` | Segmented control buton tasarımı. |
-| **Camera** | `camera` | Ghost Camera (Silüet) katmanı için. |
-| **Interaction** | `flutter_draggable_gridview` | Rota oluşturucu (Sürükle-Bırak). |
-| **Map** | Custom Isometric Canvas | 3D şehir çizimi ve etkileşimleri. |
+## 📝 Geliştirme Yol Haritası (Next Steps)
 
-## 📂 Ekran Görüntüleri (Tasarım)
+Projenin temel iskeleti hazırdır. Şu anda aşağıdaki özellikler kodlanmaktadır:
 
-| Giriş & Dashboard | Ghost Camera | Rota Oluşturucu |
-|:---:|:---:|:---:|
-| ![Splash](link1) | ![Camera](link2) | ![Route](link3) |
+- [x] **UI:** Video Splash & Login Ekranları
+- [x] **Logic:** Dashboard Mod Geçişleri (Selection Logic)
+- [x] **Data:** Statik Şehir Listeleri
+- [ ] **Özellik:** Kamera entegrasyonu (Ghost Camera / Silüet Modu)
+- [ ] **Özellik:** Sürükle-Bırak ile Rota Oluşturma (Drag & Drop)
+- [ ] **Backend:** Firebase Veritabanı Bağlantısı
 
 ## 🚀 Kurulum
 
-Projeyi yerel makinenizde çalıştırmak için:
+Projeyi incelemek için:
 
-1.  Repoyu klonlayın:
-    ```bash
-    git clone [https://github.com/KULLANICI_ADIN/travel-lens.git](https://github.com/KULLANICI_ADIN/travel-lens.git)
-    ```
-2.  Paketleri yükleyin:
-    ```bash
-    flutter pub get
-    ```
-3.  Uygulamayı başlatın:
-    ```bash
-    flutter run
-    ```
-
----
-*Geliştirici: [Senin Adın]*
+```bash
+git clone [https://github.com/KULLANICI_ADIN/travel-lens.git](https://github.com/KULLANICI_ADIN/travel-lens.git)
+flutter pub get
+flutter run
