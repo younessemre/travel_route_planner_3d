@@ -1,8 +1,9 @@
 # 📸 Travel Route: Hibrit Seyahat & Rota Asistanı
 
-> **🚧 DURUM: Aktif Geliştirme Aşamasında (WIP)**
-> Bu proje; seyahatseverlere hem **Fotoğraf Rehberliği** hem de **Rota Planlama** imkanı sunan hibrit bir mobil uygulamadır. Şu anda **v0.2 (UI & Core Logic)** aşamasındadır.
-
+> [!IMPORTANT]
+> **🚧 İNŞAAT ALANI: Bu Proje Aktif Geliştirme Aşamasındadır (WIP)**
+>
+> Şu anda **v0.2 (UI & Core Logic)** sürümündedir. Temel arayüz bitmiş olup, kamera ve harita özellikleri kodlanmaktadır. Bazı butonlar henüz çalışmayabilir.
 ---
 
 ## 📱 Proje Vizyonu
