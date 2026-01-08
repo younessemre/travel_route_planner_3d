@@ -1,10 +1,14 @@
 # 📸 Travel Route: Hibrit Seyahat & Rota Asistanı
 
-> [!IMPORTANT]
-> **🚧 İNŞAAT ALANI: Bu Proje Aktif Geliştirme Aşamasındadır (WIP)**
->
-> Şu anda **v0.2 (UI & Core Logic)** sürümündedir. Temel arayüz bitmiş olup, kamera ve harita özellikleri kodlanmaktadır. Bazı butonlar henüz çalışmayabilir.
----
+<div align="center">
+  <img src="https://img.shields.io/badge/DURUM-🚧_GELİŞTİRME_DEVAM_EDİYOR_(WIP)-FF5722?style=for-the-badge&labelColor=black" />
+  <br><br>
+  <p>
+    <b>⚠️ Uyarı:</b> Bu proje şu an <b>v0.2</b> sürümündedir. <br>
+    <i>Seyahatseverlere hibrit bir deneyim sunmak için kodlamaya devam ediyoruz.</i>
+  </p>
+</div>
+<hr>
 
 ## 📱 Proje Vizyonu
 
